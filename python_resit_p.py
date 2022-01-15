@@ -55,4 +55,4 @@ moviereviewer = list(dict.fromkeys(moviereviewer))
 print(moviereviewer)
 
 #save file
-#np.savetxt("python_resit_movies.csv", moviereviewer,fmt='% s')
+np.savetxt("python_resit_output.csv", moviereviewer,fmt='% s')
